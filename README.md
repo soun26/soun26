@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile-motion.svg?v=vector-v3">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile-motion.svg?v=vector-v3">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-motion.svg?v=vector-v3">
-  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-motion.svg?v=vector-v3" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile-motion.svg?v=vector-v4">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile-motion.svg?v=vector-v4">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-motion.svg?v=vector-v4">
+  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-motion.svg?v=vector-v4" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
 </picture>
 
 [Projects](#selected-work) · [Experience](#experience) · [Skills](#skills)
