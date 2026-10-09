@@ -50,7 +50,7 @@ I work on mechanical design, simulation, programming and manufacturing. With eac
 
 - **Mechanical design:** AutoCAD, SolidWorks, NX and Creo Parametric.
 - **Engineering simulation:** Abaqus, ANSYS and Moldex3D.
-- **Programming:** engineering software and research tools.
+- **Programming:** Python and MATLAB.
 
 ---
 
