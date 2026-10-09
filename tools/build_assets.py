@@ -49,10 +49,10 @@ def wing(palette,cx,cy,scale,animated=True,phase=None):
         points=[point(j/40,span) for j in range(41)]
         points += [point(j/40,span,False) for j in range(40,-1,-1)]
         ribs.append(points)
-        out.append(poly(points,palette['line'],.9,.72))
+        out.append(poly(points,palette['line'],1.05,.8))
     for chord in (0,.06,.16,.3,.5,.72,.9,1):
         for upper in (True,False):
-            out.append(poly([point(chord,-1+2*i/30,upper) for i in range(31)],palette['line'],.8,.45))
+            out.append(poly([point(chord,-1+2*i/30,upper) for i in range(31)],palette['line'],.9,.53))
     if phase is not None:
         sweep=phase*len(ribs)
         current=int(sweep)%len(ribs)
@@ -124,10 +124,10 @@ def cooling(palette,cx,cy,scale,phase=None):
             progress=(phase+offset)%1
             if progress<.35:
                 t=progress/.35
-                points=[p(-.96+.67*t,.045*math.sin(t*3.12),-.05)]
+                points=[p(-.96+.67*t,.045*math.sin(t*3.12),-.05)]*4
             elif progress<.6:
                 t=(progress-.35)/.25
-                points=[p(-.29+.42*t,side*.38*t**.8,-.05) for side in (-1,1)]
+                points=[p(-.29+.42*t,side*.38*t**.8,-.05) for side in (-1,1) for child in (-1,1)]
             else:
                 t=(progress-.6)/.4
                 points=[p(.13+.78*t,side*.38+child*.19*t**.85,-.05)
