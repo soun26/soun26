@@ -1,15 +1,13 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile-motion.svg?v=vector-v2">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile-motion.svg?v=vector-v2">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-motion.svg?v=vector-v2">
-  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-motion.svg?v=vector-v2" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile-motion.svg?v=vector-v3">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile-motion.svg?v=vector-v3">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-motion.svg?v=vector-v3">
+  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-motion.svg?v=vector-v3" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
 </picture>
 
 [Projects](#selected-work) · [Experience](#experience) · [Skills](#skills)
 
 I'm **Lê Nguyễn Trần Tiến**, also known as **Soun**. My main focus is **Mechanical Engineering**.
-
-<sub><samp>Tiến<del>g</del><br>Soun<del>d</del></samp></sub>
 
 I work on mechanical design, simulation, programming and manufacturing. With each project, I learn more about the related fields. My research interests include structural strength in aerospace applications, bio-inspired evolutionary cooling channels and 5-axis 3D printing.
 

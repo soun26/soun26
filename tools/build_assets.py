@@ -180,6 +180,8 @@ def hero(theme,mobile=False,phase=None):
         width,height=480,390
         body=[text(24,35,'MECHANICAL ENGINEERING',12,c['muted'],mono=True,spacing=1.4),
               text(20,124,'Soun',92,c['text'],700,spacing=-4),
+              text(284,88,'Tiến/g',16,c['muted'],mono=True),
+              text(284,112,'Soun/d',16,c['muted'],mono=True),
               text(24,166,'Lê Nguyễn Trần Tiến',21,c['text']),
               text(24,203,'Learning through interdisciplinary work',18,c['text']),
               text(24,233,'DESIGN  /  SIMULATION  /  PROGRAMMING',11,c['muted'],mono=True,spacing=.7)]
@@ -189,6 +191,8 @@ def hero(theme,mobile=False,phase=None):
         width,height=1000,340
         body=[text(36,40,'MECHANICAL ENGINEERING',13,c['muted'],mono=True,spacing=2),
               text(31,157,'Soun',118,c['text'],700,spacing=-5),
+              text(348,108,'Tiến/g',18,c['muted'],mono=True),
+              text(348,136,'Soun/d',18,c['muted'],mono=True),
               text(38,207,'Lê Nguyễn Trần Tiến',27,c['text']),
               text(38,249,'Learning through interdisciplinary work',22,c['text']),
               text(38,302,'DESIGN  /  SIMULATION  /  PROGRAMMING',12,c['muted'],mono=True,spacing=1)]
