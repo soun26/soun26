@@ -2,7 +2,8 @@
 
 # FDUT · Fractal 5 Pro Simulator
 
-**Focus:** desktop visualization of 3/3+2-axis FDM printing.  
+**Focus:** desktop visualization of 3/3+2-axis FDM printing.
+
 **Status:** working desktop prototype. [Public source repository →](https://github.com/tienleeee/fdut-fractal-simulator)
 
 A Python application for studying a Fractal 5 Pro printing workflow without a

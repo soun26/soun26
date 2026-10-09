@@ -2,7 +2,8 @@
 
 # Conformal cooling & geometry analysis
 
-**Focus:** geometry analysis and computational tools for cooling-channel research.  
+**Focus:** geometry analysis and computational tools for cooling-channel research.
+
 **Status:** research prototype. Source repository: private.
 
 This project brings part geometry, local wall thickness and imported thermal results
