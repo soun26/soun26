@@ -41,7 +41,9 @@ I work on mechanical design, simulation, programming and manufacturing. With eac
 
 [View project →](https://github.com/soun26/fdut-5axis-printing) &nbsp; · &nbsp; [Read the overview](https://github.com/soun26/soun26/blob/main/projects/five-axis-3d-printing.md)
 
-[![5-axis printing demonstrator](https://raw.githubusercontent.com/soun26/fdut-5axis-printing/main/docs/images/simulation.png)](https://github.com/soun26/fdut-5axis-printing)
+[![5-axis printing demonstrator — toolpath playback and 3D navigation](https://raw.githubusercontent.com/soun26/fdut-5axis-printing/main/docs/media/printing-demo.gif)](https://github.com/soun26/fdut-5axis-printing/blob/main/docs/media/printing-demo.mp4)
+
+[Watch the demo video →](https://github.com/soun26/fdut-5axis-printing/blob/main/docs/media/printing-demo.mp4)
 
 Source code is private. [Contact me for source access →](https://github.com/soun26/fdut-5axis-printing/issues/new?title=Source%20access%20request)
 
