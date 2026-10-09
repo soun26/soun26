@@ -57,7 +57,9 @@ results or images of private part geometry.
 The profile README and project overviews are in English.
 The project descriptions are public summaries. The 5-axis printing source is private;
 `soun26/fdut-5axis-printing` is a public presentation containing its English README,
-animated recording preview, MP4 demo and source-access contact link. The supplied
+animated recording preview and source-access contact link. The preview uses the
+recording's native 1920 × 1012 resolution at 30 fps. Public descriptions embed the
+GIF directly, with no MP4 link. The supplied
 10.005-second recording retains its first 7.005 seconds, with the last three seconds
 removed. Original third-party notices remain
 with the private source. The original Cooling AI source repository remains private.
