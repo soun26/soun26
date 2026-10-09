@@ -1,15 +1,15 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile.svg?v=wing-motion-v1">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile.svg?v=wing-motion-v1">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark.svg?v=wing-motion-v1">
-  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg?v=wing-motion-v1" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile.svg?v=wing-motion-v2">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile.svg?v=wing-motion-v2">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark.svg?v=wing-motion-v2">
+  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg?v=wing-motion-v2" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
 </picture>
 
 [Projects](#selected-work) &nbsp; · &nbsp; [Experience](#experience) &nbsp; · &nbsp; [Skills](#skills)
 
 I'm **Lê Nguyễn Trần Tiến**, also known as **Soun**. My main focus is **Mechanical Engineering**.
 
-I work on mechanical design, simulation and manufacturing, and learn related skills as each project requires. My research interests include bio-inspired evolutionary cooling channels and 5-axis 3D printing.
+I work on mechanical design, simulation, programming and manufacturing. With each project, I learn more about the related fields. My research interests include bio-inspired evolutionary cooling channels and 5-axis 3D printing.
 
 ## Selected work
 
@@ -50,6 +50,7 @@ I work on mechanical design, simulation and manufacturing, and learn related ski
 
 - **Mechanical design:** AutoCAD, SolidWorks, NX and Creo Parametric.
 - **Engineering simulation:** Abaqus, ANSYS and Moldex3D.
+- **Programming:** engineering software and research tools.
 
 ---
 

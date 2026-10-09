@@ -2,7 +2,7 @@
 
 The profile presents **Soun / Lê Nguyễn Trần Tiến** with **Mechanical Engineering**
 as the main focus. The introduction emphasizes curiosity and learning through
-interdisciplinary work that connects design, simulation and manufacturing.
+interdisciplinary work across design, simulation, programming and manufacturing.
 
 ## Direction
 

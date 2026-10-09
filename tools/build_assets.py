@@ -105,7 +105,7 @@ def hero(theme,mobile=False):
               text(20,124,'Soun',92,c['text'],700,spacing=-4),
               text(24,166,'Lê Nguyễn Trần Tiến',21,c['text']),
               text(24,203,'Learning through interdisciplinary work',18,c['text']),
-              text(24,233,'DESIGN  /  SIMULATION  /  RESEARCH',11,c['muted'],mono=True,spacing=.7)]
+              text(24,233,'DESIGN  /  SIMULATION  /  PROGRAMMING',11,c['muted'],mono=True,spacing=.7)]
         body+=wing(c,300,306,90)
         body+=[text(24,366,'soun26 / github',11,c['muted'],mono=True)]
     else:
@@ -114,7 +114,7 @@ def hero(theme,mobile=False):
               text(31,157,'Soun',118,c['text'],700,spacing=-5),
               text(38,207,'Lê Nguyễn Trần Tiến',27,c['text']),
               text(38,249,'Learning through interdisciplinary work',22,c['text']),
-              text(38,302,'DESIGN  /  SIMULATION  /  RESEARCH',12,c['muted'],mono=True,spacing=1)]
+              text(38,302,'DESIGN  /  SIMULATION  /  PROGRAMMING',12,c['muted'],mono=True,spacing=1)]
         body+=[line((590,54),(590,285),c['border'])]
         body+=wing(c,780,163,144)
         body+=[text(662,298,'FORM / STRUCTURE / MOTION',11,c['muted'],mono=True,spacing=1)]
