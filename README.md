@@ -9,7 +9,7 @@
 
 I'm **Lê Nguyễn Trần Tiến**, also known as **Soun**. My main focus is **Mechanical Engineering**.
 
-<sub>“Sound” is “tiếng” in Vietnamese. Soun drops the d; Tiến drops the g.</sub>
+<sub><samp>Tiến<del>g</del><br>Soun<del>d</del></samp></sub>
 
 I work on mechanical design, simulation, programming and manufacturing. With each project, I learn more about the related fields. My research interests include structural strength in aerospace applications, bio-inspired evolutionary cooling channels and 5-axis 3D printing.
 
