@@ -21,5 +21,12 @@ thickness provide a practical setting for studying nonuniform cooling.
 
 ## Web presentation
 
+[Open web app →](https://cooling-ai-user.lengtrtien2610.workers.dev/)
+
+[![Web interface](../assets/cooling-web-preview.png)](https://cooling-ai-user.lengtrtien2610.workers.dev/user/)
+
+[Web interface source →](https://github.com/soun26/cooling-ai-web)
+
 A browser edition presents selected research cases and visual results
-on desktop and mobile. The original research application and source remain private.
+on desktop and mobile. The browser interface and gateway have a separate source
+repository. The original research application and source remain private.

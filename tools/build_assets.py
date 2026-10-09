@@ -194,7 +194,6 @@ def hero(theme,mobile=False,phase=None):
               text(38,302,'DESIGN  /  SIMULATION  /  PROGRAMMING',12,c['muted'],mono=True,spacing=1)]
         body+=[line((590,54),(590,285),c['border'])]
         body+=wing(c,780,155,144,phase=phase)
-        body+=[text(662,298,'FORM / STRUCTURE / MOTION',11,c['muted'],mono=True,spacing=1)]
     return svg(width,height,'Soun — Lê Nguyễn Trần Tiến / Mechanical Engineering / Learning through interdisciplinary work',body,c)
 
 def project(kind,theme,mobile=False,phase=None):

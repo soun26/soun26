@@ -55,7 +55,14 @@ The illustrations are schematic design artwork, rather than aerodynamic simulati
 results or images of private part geometry.
 
 The profile README and project overviews are in English.
-The project descriptions are public summaries. The 5-axis printing simulator has a public
-source repository; the Cooling AI source repository remains private.
-The Cooling AI project card showcases its browser/PWA edition. The overview
-does not claim a live deployment URL when none is recorded in the repository.
+The project descriptions are public summaries. The 5-axis printing source is private;
+`soun26/fdut-5axis-printing` is a public presentation containing its English README,
+interface preview and source-access contact link. Original third-party notices remain
+with the private source. The original Cooling AI source repository remains private.
+The Cooling AI project card links directly to its browser edition at
+https://cooling-ai-user.lengtrtien2610.workers.dev/. The research overview also
+links to the web app. An actual web-interface screenshot links to the user edition.
+The browser interface and gateway are published separately in `soun26/cooling-ai-web`.
+The original research source remains private. Research interests also include
+structural strength in aerospace applications. The redundant illustration caption
+has been removed from the hero.
