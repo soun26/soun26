@@ -21,22 +21,5 @@ thickness provide a practical setting for studying nonuniform cooling.
 
 ## Web presentation
 
-A bilingual browser edition presents selected research cases and visual results
+A browser edition presents selected research cases and visual results
 on desktop and mobile. The original research application and source remain private.
-
-<details>
-<summary>Tiếng Việt</summary>
-
-## Kênh làm mát tiến hóa dạng sinh học
-
-Mình tham gia nghiên cứu mạng kênh làm mát bám biên dạng sinh học cho chi tiết
-có bề mặt phức tạp và bề dày biến thiên. Các thiết kế phát triển qua nhiều thế hệ,
-hướng tới lấy nhiệt tốt hơn và làm nguội đồng đều hơn khi đúc ép nhựa.
-
-Một đối tượng nghiên cứu là chi tiết đế giày. Bề mặt cong và chiều dày thay đổi
-theo từng vùng tạo điều kiện để so sánh hiệu quả làm mát giữa các thế hệ kênh.
-
-Bản web Việt/Anh giới thiệu các ca nghiên cứu và kết quả trực quan trên máy tính,
-điện thoại. Mình giữ ứng dụng nghiên cứu gốc và mã nguồn ở chế độ riêng tư.
-
-</details>

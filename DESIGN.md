@@ -32,7 +32,7 @@ Run `python tools/build_assets.py` to regenerate the original SVG assets.
 The illustrations are schematic design artwork, rather than aerodynamic simulation
 results or images of private part geometry.
 
-English is the default profile README. `README.vi.md` provides a Vietnamese version.
+The profile README and project overviews are in English.
 The project descriptions are public summaries. FDUT Fractal Simulator has a public
 source repository; the Cooling AI source repository remains private.
 The Cooling AI project card showcases its browser/PWA edition. The overview

@@ -5,7 +5,7 @@
   <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg?v=wing-motion-v1" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
 </picture>
 
-[Projects](#selected-work) &nbsp; · &nbsp; [Experience](#experience) &nbsp; · &nbsp; [Skills](#skills) &nbsp; · &nbsp; [Tiếng Việt](https://github.com/soun26/soun26/blob/main/README.vi.md)
+[Projects](#selected-work) &nbsp; · &nbsp; [Experience](#experience) &nbsp; · &nbsp; [Skills](#skills)
 
 I'm **Lê Nguyễn Trần Tiến**, also known as **Soun**. My main focus is **Mechanical Engineering**.
 
@@ -53,4 +53,4 @@ I work on mechanical design, simulation and manufacturing, and learn related ski
 
 ---
 
-<sub>Soun · Mechanical Engineering · <a href="https://github.com/soun26/soun26/blob/main/README.vi.md">Tiếng Việt</a></sub>
+<sub>Soun · Mechanical Engineering</sub>
