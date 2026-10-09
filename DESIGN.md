@@ -31,4 +31,6 @@ results or images of private part geometry.
 
 English is the default profile README. `README.vi.md` provides a Vietnamese version.
 The project descriptions are public summaries. FDUT Fractal Simulator has a public
-source repository; the conformal-cooling source repository remains private.
+source repository; the Cooling AI source repository remains private.
+The Cooling AI project card showcases its browser/PWA edition. The overview
+does not claim a live deployment URL when none is recorded in the repository.

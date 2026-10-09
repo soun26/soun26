@@ -60,8 +60,12 @@ def cooling(palette,cx,cy,scale):
         out.append(line(corners[a],corners[b],palette['line'],1.1,.8))
     for y in (-.8,-.4,0,.4,.8):
         out.append(poly([p(-1+2*i/20,y,.55+.05*math.sin(i*.3)) for i in range(21)],palette['line'],.8,.4))
-    for y in (-.6,.05,.65):
-        out.append(poly([p(-.85+1.7*i/30,y+.13*math.sin(i*.28),-.05) for i in range(31)],palette['accent'],2.2))
+    # An original branching schematic, rather than a private research geometry.
+    out.append(poly([p(-.96+.67*i/24,.045*math.sin(i*.13),-.05) for i in range(25)],palette['accent'],2.6))
+    for side in (-1,1):
+        out.append(poly([p(-.29+.42*i/24,side*.38*(i/24)**.8,-.05) for i in range(25)],palette['accent'],2.2))
+        for child in (-1,1):
+            out.append(poly([p(.13+.78*i/24,side*.38+child*.19*(i/24)**.85,-.05) for i in range(25)],palette['accent'],1.8))
     return out
 
 def fractal(palette,cx,cy,scale):
@@ -89,7 +93,7 @@ def hero(theme,mobile=False):
               text(20,124,'Soun',92,c['text'],700,spacing=-4),
               text(24,166,'Lê Nguyễn Trần Tiến',21,c['text']),
               text(24,203,'Aerospace Mechanics',19,c['text']),
-              text(24,233,'CAD  /  SIMULATION  /  PYTHON',11,c['muted'],mono=True,spacing=.7)]
+              text(24,233,'DESIGN  /  SIMULATION  /  RESEARCH',11,c['muted'],mono=True,spacing=.7)]
         body+=wing(c,300,306,90)
         body+=[text(24,366,'tienleeee / github',11,c['muted'],mono=True)]
     else:
@@ -98,7 +102,7 @@ def hero(theme,mobile=False):
               text(31,157,'Soun',118,c['text'],700,spacing=-5),
               text(38,207,'Lê Nguyễn Trần Tiến',27,c['text']),
               text(38,249,'Aerospace Mechanics',23,c['text']),
-              text(38,302,'CAD  /  SIMULATION  /  PYTHON',12,c['muted'],mono=True,spacing=1)]
+              text(38,302,'DESIGN  /  SIMULATION  /  RESEARCH',12,c['muted'],mono=True,spacing=1)]
         body+=[line((590,54),(590,285),c['border'])]
         body+=wing(c,780,163,144)
         body+=[text(662,298,'FORM / STRUCTURE / MOTION',11,c['muted'],mono=True,spacing=1)]
@@ -108,23 +112,34 @@ def project(kind,theme,mobile=False):
     c=THEMES[theme]
     is_cooling=kind=='cooling'
     number='01' if is_cooling else '02'
-    label='GEOMETRY ANALYSIS' if is_cooling else 'ADDITIVE MANUFACTURING'
-    title='Conformal cooling' if is_cooling else 'Fractal 5 Pro'
-    subtitle='Geometry for cooling-channel research.' if is_cooling else '3 + 2 axis printing, explored in Python.'
-    tags='STL / STEP   ·   THICKNESS   ·   THERMAL FIELDS' if is_cooling else 'FDUT   ·   G-CODE   ·   XYZ / A / B'
+    label='INJECTION MOLDING' if is_cooling else 'ADDITIVE MANUFACTURING'
+    title='Bio-inspired evolutionary cooling channels' if is_cooling else '5-axis 3D printing'
+    subtitle='For complex, variable-thickness parts.' if is_cooling else 'Exploring multi-axis additive manufacturing.'
+    tags='THERMAL PERFORMANCE   ·   WEB EDITION' if is_cooling else 'MOTION   ·   PRINT ORIENTATION   ·   RESEARCH'
     if mobile:
         width,height=480,254
-        body=[text(24,32,f'{number} / {label}',10,c['muted'],mono=True,spacing=.8),
-              text(22,82,title,31,c['text'],600,spacing=-.8),
-              text(24,116,'Geometry & thermal workflows.' if is_cooling else 'A Python desktop simulator.',16,c['text']),
-              text(24,227,'RESEARCH TOOL' if is_cooling else 'FDUT / 3 + 2',10,c['muted'],mono=True,spacing=.7)]
-        body+=(cooling if is_cooling else fractal)(c,347,184,58)
+        body=[text(24,32,f'{number} / {label}',10,c['muted'],mono=True,spacing=.8)]
+        if is_cooling:
+            body += [text(22,76,'Bio-inspired evolutionary',28,c['text'],600,spacing=-.7),
+                     text(22,110,'cooling channels',30,c['text'],600,spacing=-.7),
+                     text(24,142,subtitle,16,c['text'])]
+        else:
+            body += [text(22,82,title,31,c['text'],600,spacing=-.8),
+                     text(24,116,'Exploring multi-axis manufacturing.',16,c['text'])]
+        body += [text(24,227,'WEB EDITION' if is_cooling else 'RESEARCH PROJECT',10,c['muted'],mono=True,spacing=.7)]
+        body+=(cooling if is_cooling else fractal)(c,347,193 if is_cooling else 184,49 if is_cooling else 58)
     else:
         width,height=1000,220
-        body=[text(28,34,f'{number} / {label}',11,c['muted'],mono=True,spacing=1.3),
-              text(26,92,title,42,c['text'],600,spacing=-1.2),
-              text(29,129,subtitle,20,c['text']),
-              text(29,185,tags,12,c['muted'],mono=True)]
+        body=[text(28,34,f'{number} / {label}',11,c['muted'],mono=True,spacing=1.3)]
+        if is_cooling:
+            body += [text(26,80,'Bio-inspired evolutionary',35,c['text'],600,spacing=-1),
+                     text(26,126,'cooling channels',42,c['text'],600,spacing=-1.2),
+                     text(29,158,subtitle,18,c['text']),
+                     text(29,192,tags,11,c['muted'],mono=True)]
+        else:
+            body += [text(26,92,title,42,c['text'],600,spacing=-1.2),
+                     text(29,129,subtitle,20,c['text']),
+                     text(29,185,tags,12,c['muted'],mono=True)]
         body+=(cooling if is_cooling else fractal)(c,806,120,101)
     return svg(width,height,title,body,c)
 
@@ -133,9 +148,9 @@ def main():
     for theme in THEMES:
         for mobile in (False,True):
             suffix='-mobile' if mobile else ''
-            (ASSETS/f'hero-{theme}{suffix}.svg').write_text(hero(theme,mobile),encoding='utf-8')
+            (ASSETS/f'hero-{theme}{suffix}.svg').write_text(hero(theme,mobile),encoding='utf-8',newline='\n')
             for kind in ('cooling','fractal'):
-                (ASSETS/f'{kind}-{theme}{suffix}.svg').write_text(project(kind,theme,mobile),encoding='utf-8')
+                (ASSETS/f'{kind}-{theme}{suffix}.svg').write_text(project(kind,theme,mobile),encoding='utf-8',newline='\n')
     print(f'Generated 12 SVG assets in {ASSETS}')
 
 if __name__=='__main__':
