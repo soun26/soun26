@@ -23,7 +23,7 @@ thickness provide a practical setting for studying nonuniform cooling.
 
 [Open web app →](https://cooling-ai-user.lengtrtien2610.workers.dev/)
 
-[![Web interface](../assets/cooling-web-preview.png)](https://cooling-ai-user.lengtrtien2610.workers.dev/user/)
+[![Web interface](../assets/cooling-web-rounded.svg)](https://cooling-ai-user.lengtrtien2610.workers.dev/user/)
 
 [Web interface source →](https://github.com/soun26/cooling-ai-web)
 

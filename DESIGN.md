@@ -59,7 +59,10 @@ The project descriptions are public summaries. The 5-axis printing source is pri
 `soun26/fdut-5axis-printing` is a public presentation containing its English README,
 animated recording preview and source-access contact link. The preview uses the
 recording's native 1920 × 1012 resolution at 30 fps. Public descriptions embed the
-GIF directly, with no MP4 link. The supplied
+GIF directly, with no MP4 link. Interface previews have rounded transparent corners,
+using matching proportions across the static cooling image and the printing GIF.
+The cooling screenshot uses a self-contained SVG clip; the GIF contains its own
+transparency mask. The public project overview has no reference footer. The supplied
 10.005-second recording retains its first 7.005 seconds, with the last three seconds
 removed. Original third-party notices remain
 with the private source. The original Cooling AI source repository remains private.

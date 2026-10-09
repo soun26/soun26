@@ -24,9 +24,11 @@ I work on mechanical design, simulation, programming and manufacturing. With eac
 
 **Bio-inspired evolutionary cooling channels** — cooling networks that follow complex part geometry and evolve to improve thermal uniformity in plastic injection molding.
 
-[Open web app →](https://cooling-ai-user.lengtrtien2610.workers.dev/) &nbsp; · &nbsp; [Web source](https://github.com/soun26/cooling-ai-web) &nbsp; · &nbsp; [Research overview](https://github.com/soun26/soun26/blob/main/projects/bio-inspired-cooling.md)
+[Open web app →](https://cooling-ai-user.lengtrtien2610.workers.dev/)  
+[Web source](https://github.com/soun26/cooling-ai-web)  
+[Research overview](https://github.com/soun26/soun26/blob/main/projects/bio-inspired-cooling.md)
 
-[![Cooling web interface](assets/cooling-web-preview.png)](https://cooling-ai-user.lengtrtien2610.workers.dev/user/)
+[![Cooling web interface](assets/cooling-web-rounded.svg)](https://cooling-ai-user.lengtrtien2610.workers.dev/user/)
 
 <a href="https://github.com/soun26/fdut-5axis-printing">
   <picture>
@@ -41,7 +43,7 @@ I work on mechanical design, simulation, programming and manufacturing. With eac
 
 [View project →](https://github.com/soun26/fdut-5axis-printing) &nbsp; · &nbsp; [Read the overview](https://github.com/soun26/soun26/blob/main/projects/five-axis-3d-printing.md)
 
-![5-axis printing demonstrator — toolpath playback and 3D navigation](https://raw.githubusercontent.com/soun26/fdut-5axis-printing/main/docs/media/printing-demo-hd.gif)
+![5-axis printing demonstrator — toolpath playback and 3D navigation](https://raw.githubusercontent.com/soun26/fdut-5axis-printing/main/docs/media/printing-demo-rounded.gif)
 
 Source code is private. [Contact me for source access →](https://github.com/soun26/fdut-5axis-printing/issues/new?title=Source%20access%20request)
 
