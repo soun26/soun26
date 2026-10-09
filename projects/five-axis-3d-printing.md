@@ -13,3 +13,5 @@ The current demonstrator focuses on virtual motion and print orientation;
 physical machine validation remains future work.
 
 [Public research source →](https://github.com/soun26/fdut-fractal-simulator)
+
+<sub>Reference: [Fractal Robotics](https://github.com/fractalrobotics).</sub>

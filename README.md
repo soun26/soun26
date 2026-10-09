@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile.svg?v=wing-motion-v2">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile.svg?v=wing-motion-v2">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark.svg?v=wing-motion-v2">
-  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg?v=wing-motion-v2" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile.gif?v=motion-v1">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile.gif?v=motion-v1">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark.gif?v=motion-v1">
+  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.gif?v=motion-v1" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
 </picture>
 
 [Projects](#selected-work) &nbsp; · &nbsp; [Experience](#experience) &nbsp; · &nbsp; [Skills](#skills)
@@ -15,10 +15,10 @@ I work on mechanical design, simulation, programming and manufacturing. With eac
 
 <a href="https://github.com/soun26/soun26/blob/main/projects/bio-inspired-cooling.md">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/cooling-dark-mobile.svg?v=28fb738">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/cooling-light-mobile.svg?v=28fb738">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/cooling-dark.svg?v=28fb738">
-    <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/cooling-light.svg?v=28fb738" width="100%" alt="Bio-inspired evolutionary cooling channels for complex, variable-thickness parts.">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/cooling-dark-mobile.gif?v=motion-v1">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/cooling-light-mobile.gif?v=motion-v1">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/cooling-dark.gif?v=motion-v1">
+    <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/cooling-light.gif?v=motion-v1" width="100%" alt="Bio-inspired evolutionary cooling channels for complex, variable-thickness parts.">
   </picture>
 </a>
 
@@ -28,10 +28,10 @@ I work on mechanical design, simulation, programming and manufacturing. With eac
 
 <a href="https://github.com/soun26/fdut-fractal-simulator">
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/fractal-dark-mobile.svg?v=28fb738">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/fractal-light-mobile.svg?v=28fb738">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/fractal-dark.svg?v=28fb738">
-    <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/fractal-light.svg?v=28fb738" width="100%" alt="5-axis 3D printing research — simulation and visualization of multi-axis printing motion and toolpaths.">
+    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/fractal-dark-mobile.gif?v=motion-v1">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/fractal-light-mobile.gif?v=motion-v1">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/fractal-dark.gif?v=motion-v1">
+    <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/fractal-light.gif?v=motion-v1" width="100%" alt="5-axis 3D printing research — simulation and visualization of multi-axis printing motion and toolpaths.">
   </picture>
 </a>
 
