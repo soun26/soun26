@@ -39,11 +39,11 @@ I work on mechanical design, simulation, programming and manufacturing. With eac
 
 **5-axis 3D printing research** — simulation and visualization of multi-axis printing motion and toolpaths.
 
-[Project](https://github.com/soun26/fdut-5axis-printing) · [Overview](https://github.com/soun26/soun26/blob/main/projects/five-axis-3d-printing.md)
+[Project](https://github.com/soun26/fdut-5axis-printing) · [Overview](https://github.com/soun26/soun26/blob/main/projects/five-axis-3d-printing.md) · [Access](https://github.com/soun26/fdut-5axis-printing/issues/new?title=Source%20access%20request)
 
 ![5-axis printing demonstrator — toolpath playback and 3D navigation](https://raw.githubusercontent.com/soun26/fdut-5axis-printing/main/docs/media/printing-demo-rounded.gif)
 
-Source code is private. [Request access](https://github.com/soun26/fdut-5axis-printing/issues/new?title=Source%20access%20request)
+Source code is private.
 
 ## Experience
 

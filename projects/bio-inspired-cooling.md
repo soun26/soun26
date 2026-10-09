@@ -1,4 +1,4 @@
-[Soun](https://github.com/soun26)
+[Soun](https://github.com/soun26) · [Web](https://cooling-ai-user.lengtrtien2610.workers.dev/) · [Source](https://github.com/soun26/cooling-ai-web)
 
 # Bio-inspired evolutionary cooling channels
 
@@ -20,8 +20,6 @@ The research includes a shoe-sole case study, whose curved surfaces and varying
 thickness provide a practical setting for studying nonuniform cooling.
 
 ## Web presentation
-
-[Web](https://cooling-ai-user.lengtrtien2610.workers.dev/) · [Source](https://github.com/soun26/cooling-ai-web)
 
 [![Web interface](../assets/cooling-web-rounded.svg)](https://cooling-ai-user.lengtrtien2610.workers.dev/user/)
 

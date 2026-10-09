@@ -57,6 +57,8 @@ results or images of private part geometry.
 The profile README and project overviews are in English. Navigation links use short
 labels without arrow symbols. Project link rows use regular spaces and no forced
 line breaks, allowing natural wrapping on narrow screens.
+Related project links and source-access actions are grouped in compact rows across
+the profile, overviews and repository READMEs. Source-access links use `Access`.
 The project descriptions are public summaries. The 5-axis printing source is private;
 `soun26/fdut-5axis-printing` is a public presentation containing its English README,
 animated recording preview and source-access contact link. The preview uses the
