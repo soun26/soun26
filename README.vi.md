@@ -5,32 +5,37 @@
   <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering, chuyên ngành Aerospace Mechanics.">
 </picture>
 
-[Dự án](#dự-án) &nbsp; · &nbsp; [Hướng quan tâm](#hướng-quan-tâm) &nbsp; · &nbsp; [English](https://github.com/soun26)
+[Dự án](#dự-án) &nbsp; · &nbsp; [Kinh nghiệm](#kinh-nghiệm) &nbsp; · &nbsp; [Kỹ năng](#kỹ-năng) &nbsp; · &nbsp; [English](https://github.com/soun26)
 
-Tôi là **Lê Nguyễn Trần Tiến**, nickname **Soun**. Ngành **Mechanical Engineering**, chuyên ngành **Aerospace Mechanics — Cơ học hàng không và vũ trụ**.
+Mình là **Lê Nguyễn Trần Tiến**, bạn có thể gọi mình là **Soun**. Lĩnh vực của mình là **Mechanical Engineering**, chuyên ngành **Aerospace Mechanics — Cơ học hàng không và vũ trụ**.
 
-Tôi nghiên cứu thiết kế và mô phỏng cơ khí, tập trung vào hiệu quả nhiệt và các phương pháp chế tạo nhiều trục.
+Mình làm việc với thiết kế cơ khí, mô phỏng và gia công. Hai đề tài mình đang theo là kênh làm mát tiến hóa dạng sinh học và in 3D 5 trục.
 
 ## Dự án
 
 ### Kênh làm mát tiến hóa dạng sinh học
 
-Nghiên cứu mạng kênh làm mát bám biên dạng sinh học cho chi tiết có bề dày phức tạp, phát triển qua các thế hệ thiết kế nhằm cải thiện sự đồng đều nhiệt trong quá trình đúc ép nhựa.
+Đề tài tập trung vào mạng kênh làm mát bám theo hình dạng chi tiết, với cấu trúc dạng sinh học và thiết kế phát triển qua nhiều thế hệ. Mục tiêu là giúp các vùng có bề dày khác nhau được làm nguội đồng đều hơn.
 
 [Giới thiệu nghiên cứu · Bản web →](https://github.com/soun26/soun26/blob/main/projects/bio-inspired-cooling.md)
 
 ### Đề tài in 3D 5 trục
 
-Mô phỏng và trực quan hóa chuyển động, đường in của quá trình in 3D nhiều trục.
+Mình dùng môi trường mô phỏng để tìm hiểu chuyển động và hướng đặt chi tiết khi in 3D nhiều trục.
 
 [Xem mã nguồn →](https://github.com/soun26/fdut-fractal-simulator) &nbsp; · &nbsp; [Giới thiệu đề tài](https://github.com/soun26/soun26/blob/main/projects/five-axis-3d-printing.md)
 
-## Hướng quan tâm
+## Kinh nghiệm
 
-- Cơ học hàng không và vũ trụ, thiết kế cơ khí.
-- Làm mát dạng sinh học và hiệu quả nhiệt.
-- Chế tạo bồi đắp nhiều trục.
-- Mô phỏng và trực quan hóa nghiên cứu kỹ thuật.
+- **Vietnam Mold Grand Prix 2026:** có kinh nghiệm thiết kế và chế tạo khuôn ép nhựa thông qua cuộc thi.
+- **Nghiên cứu khuôn ép nhựa:** tham gia nghiên cứu mô hình hóa và dự đoán kênh làm mát.
+- **CNC:** có kinh nghiệm làm việc trực tiếp với máy CNC.
+- **Chi tiết hàng không:** từng thiết kế quy trình gia công cho chi tiết máy bay.
+
+## Kỹ năng
+
+- **Thiết kế cơ khí:** AutoCAD, SolidWorks, NX và Creo Parametric.
+- **Mô phỏng kỹ thuật:** Abaqus, ANSYS và Moldex3D.
 
 ---
 

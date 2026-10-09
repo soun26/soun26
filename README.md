@@ -5,11 +5,11 @@
   <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering, specializing in Aerospace Mechanics.">
 </picture>
 
-[Selected work](#selected-work) &nbsp; · &nbsp; [Current focus](#current-focus) &nbsp; · &nbsp; [Tiếng Việt](https://github.com/soun26/soun26/blob/main/README.vi.md)
+[Projects](#selected-work) &nbsp; · &nbsp; [Experience](#experience) &nbsp; · &nbsp; [Skills](#skills) &nbsp; · &nbsp; [Tiếng Việt](https://github.com/soun26/soun26/blob/main/README.vi.md)
 
 I'm **Lê Nguyễn Trần Tiến**, also known as **Soun**. My field is **Mechanical Engineering**, specializing in **Aerospace Mechanics**.
 
-My work explores mechanical design and simulation, with a focus on thermal performance and multi-axis manufacturing.
+I work with mechanical design, engineering simulation and manufacturing. My research interests include bio-inspired evolutionary cooling channels and 5-axis 3D printing.
 
 ## Selected work
 
@@ -39,12 +39,17 @@ My work explores mechanical design and simulation, with a focus on thermal perfo
 
 [View source →](https://github.com/soun26/fdut-fractal-simulator) &nbsp; · &nbsp; [Read the overview](https://github.com/soun26/soun26/blob/main/projects/five-axis-3d-printing.md)
 
-## Current focus
+## Experience
 
-- Aerospace mechanics and mechanical design.
-- Bio-inspired cooling and thermal performance.
-- Multi-axis additive manufacturing.
-- Engineering simulation and research visualization.
+- **Vietnam Mold Grand Prix 2026:** experience in plastic injection mold design and fabrication through the competition.
+- **Injection-mold research:** participated in mathematical modelling and cooling-channel prediction.
+- **CNC machining:** hands-on experience working with CNC machines.
+- **Aircraft components:** experience designing machining processes for aircraft parts.
+
+## Skills
+
+- **Mechanical design:** AutoCAD, SolidWorks, NX and Creo Parametric.
+- **Engineering simulation:** Abaqus, ANSYS and Moldex3D.
 
 ---
 

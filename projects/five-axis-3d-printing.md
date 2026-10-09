@@ -19,11 +19,11 @@ physical machine validation remains future work.
 
 ## Đề tài in 3D 5 trục
 
-Nghiên cứu chuyển động và hướng in trong chế tạo bồi đắp nhựa nhiều trục.
-Môi trường mô phỏng cho phép quan sát quá trình in và tìm hiểu ảnh hưởng của
-hướng đặt chi tiết trước khi sử dụng máy thật.
+Mình dùng mô phỏng để tìm hiểu chuyển động và hướng in khi in nhựa nhiều trục.
+Nhờ đó, mình có thể quan sát quá trình in và thử các hướng đặt chi tiết trước
+khi sử dụng máy thật.
 
 Bản trình diễn hiện tập trung vào chuyển động và hướng in trong môi trường
-mô phỏng; kiểm chứng trên máy thực là công việc tiếp theo.
+mô phỏng. Kiểm chứng trên máy thực là bước tiếp theo của đề tài.
 
 </details>

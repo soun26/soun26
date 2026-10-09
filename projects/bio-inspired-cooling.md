@@ -29,15 +29,14 @@ on desktop and mobile. The original research application and source remain priva
 
 ## Kênh làm mát tiến hóa dạng sinh học
 
-Nghiên cứu thiết kế mạng kênh làm mát bám biên dạng sinh học cho chi tiết có bề
-mặt phức tạp và bề dày biến thiên. Các thiết kế phát triển qua nhiều thế hệ nhằm
-đáp ứng nhu cầu làm nguội của chi tiết, hướng tới tăng khả năng lấy nhiệt và
-cải thiện sự đồng đều nhiệt trong quá trình đúc ép nhựa.
+Mình tham gia nghiên cứu mạng kênh làm mát bám biên dạng sinh học cho chi tiết
+có bề mặt phức tạp và bề dày biến thiên. Các thiết kế phát triển qua nhiều thế hệ,
+hướng tới lấy nhiệt tốt hơn và làm nguội đồng đều hơn khi đúc ép nhựa.
 
-Chi tiết đế giày là một đối tượng nghiên cứu, với bề mặt cong và chiều dày thay
-đổi theo từng vùng. Đề tài xem xét, so sánh hiệu quả nhiệt giữa các thế hệ kênh.
+Một đối tượng nghiên cứu là chi tiết đế giày. Bề mặt cong và chiều dày thay đổi
+theo từng vùng tạo điều kiện để so sánh hiệu quả làm mát giữa các thế hệ kênh.
 
 Bản web Việt/Anh giới thiệu các ca nghiên cứu và kết quả trực quan trên máy tính,
-điện thoại. Ứng dụng nghiên cứu gốc và mã nguồn vẫn được giữ riêng tư.
+điện thoại. Mình giữ ứng dụng nghiên cứu gốc và mã nguồn ở chế độ riêng tư.
 
 </details>

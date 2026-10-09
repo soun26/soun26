@@ -5,7 +5,7 @@ and the **Aerospace Mechanics** specialization supplied by the owner.
 
 ## Direction
 
-The layout combines a large typographic identity, an original wing wireframe,
+The layout combines a large typographic identity, an original aircraft illustration,
 short project introductions and a restrained neutral palette with a copper accent.
 Project overviews provide readable context before tools and technologies.
 SVG banners have light/dark and mobile variants; light backgrounds use pure white.

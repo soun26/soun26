@@ -28,27 +28,52 @@ def svg(width,height,title,body,palette):
             f'<rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="22" fill="{palette["bg"]}" stroke="{palette["border"]}"/>'
             +''.join(body)+'</svg>\n')
 
-def wing(palette,cx,cy,scale):
-    """An illustrative swept wing; no aerodynamic result is encoded."""
-    def point(chord,span,upper=True):
-        taper=1-.24*(span+1)/2
-        x=chord*taper+.22*(span+1)/2
-        y=span
-        thickness=.115*math.sin(math.pi*math.sqrt(chord))
-        z=.025*math.sin(math.pi*chord)+(thickness if upper else -thickness)
-        return cx+scale*(.90*x+.61*y-.30),cy+scale*(.35*x-.36*y-z*2.1)
+def aircraft(palette,cx,cy,scale):
+    """An original schematic airliner with wings, engines and a tail."""
+    def p(x,y,z=0):
+        return cx+scale*(.75*x+.65*y),cy+scale*(-.28*x+.42*y-.75*z)
+    def surface(points):
+        coordinates=' '.join(f'{x:.2f},{y:.2f}' for x,y in points)
+        return f'<polygon points="{coordinates}" fill="{palette["bg"]}" stroke="{palette["line"]}" stroke-width="1.3" stroke-linejoin="round"/>'
     out=[]
-    for i in range(8):
-        span=-1+2*i/7
-        points=[point(j/40,span) for j in range(41)]
-        points += [point(j/40,span,False) for j in range(40,-1,-1)]
-        out.append(poly(points,palette['line'],.9,.72))
-    for chord in (0,.06,.16,.3,.5,.72,.9,1):
-        for upper in (True,False):
-            out.append(poly([point(chord,-1+2*i/30,upper) for i in range(31)],palette['line'],.8,.45))
-    out.append(poly([point(j/40,.14) for j in range(41)],palette['accent'],1.5))
-    tip=point(.30,.14)
-    out.append(f'<circle cx="{tip[0]:.2f}" cy="{tip[1]:.2f}" r="3" fill="{palette["accent"]}"/>')
+    for side in (-1,1):
+        # Swept main wings and horizontal tail.
+        wing=[(.48,side*.085,.02),(-.61,side*1.36,.015),
+              (-.93,side*1.36,.015),(-.48,side*.085,.02)]
+        out.append(surface([p(*vertex) for vertex in wing]))
+        for span in (.25,.45,.7,1.0,1.25):
+            t=(span-.085)/(1.36-.085)
+            leading=.48+(-.61-.48)*t
+            trailing=-.48+(-.93+.48)*t
+            out.append(line(p(leading,side*span,.025),p(trailing,side*span,.025),palette['line'],.7,.5))
+        tail=[(-.94,side*.05,.02),(-1.32,side*.54,.035),
+              (-1.53,side*.54,.035),(-1.4,side*.05,.02)]
+        out.append(surface([p(*vertex) for vertex in tail]))
+        # Two nacelles make the whole-aircraft silhouette recognizable.
+        engine_y=side*.52
+        for offset in (-.085,.085):
+            out.append(line(p(.10,engine_y+offset,-.16),p(.63,engine_y+offset,-.16),palette['line'],1.2))
+        for station in (.10,.63):
+            ring=[p(station,engine_y+.085*math.cos(i*math.pi/16),-.16+.085*math.sin(i*math.pi/16)) for i in range(33)]
+            out.append(poly(ring,palette['line'],1.2))
+    def body_radius(x):
+        t=(x+1.5)/3.25
+        return .115*max(0,math.sin(math.pi*t))**.62
+    stations=[-1.5+3.25*i/52 for i in range(53)]
+    silhouette=[p(x,body_radius(x),.10) for x in stations]
+    silhouette += [p(x,-body_radius(x),.10) for x in reversed(stations)]
+    out.append(surface(silhouette))
+    for angle in (math.pi/4,math.pi/2,3*math.pi/4):
+        spine=[p(x,body_radius(x)*math.cos(angle),.10+body_radius(x)*math.sin(angle)) for x in stations]
+        out.append(poly(spine,palette['line'],.7,.65))
+    for x in (-1.15,-.8,-.45,-.1,.25,.6,.95,1.25,1.48):
+        radius=body_radius(x)
+        out.append(poly([p(x,radius*math.cos(i*math.pi/24),.10+radius*math.sin(i*math.pi/24)) for i in range(25)],palette['line'],.6,.4))
+    fin=[(-1.42,0,.10),(-1.12,0,.59),(-.91,0,.59),(-.75,0,.10)]
+    out.append(surface([p(*vertex) for vertex in fin]))
+    out.append(poly([p(-.7,0,.22),p(.95,0,.21),p(1.43,0,.16)],palette['accent'],1.8))
+    for side in (-1,1):
+        out.append(poly([p(1.35,side*.055,.16),p(1.47,side*.035,.14),p(1.54,side*.016,.13)],palette['line'],1.6))
     return out
 
 def cooling(palette,cx,cy,scale):
@@ -94,7 +119,7 @@ def hero(theme,mobile=False):
               text(24,166,'Lê Nguyễn Trần Tiến',21,c['text']),
               text(24,203,'Aerospace Mechanics',19,c['text']),
               text(24,233,'DESIGN  /  SIMULATION  /  RESEARCH',11,c['muted'],mono=True,spacing=.7)]
-        body+=wing(c,300,306,90)
+        body+=aircraft(c,318,306,70)
         body+=[text(24,366,'soun26 / github',11,c['muted'],mono=True)]
     else:
         width,height=1000,340
@@ -104,7 +129,7 @@ def hero(theme,mobile=False):
               text(38,249,'Aerospace Mechanics',23,c['text']),
               text(38,302,'DESIGN  /  SIMULATION  /  RESEARCH',12,c['muted'],mono=True,spacing=1)]
         body+=[line((590,54),(590,285),c['border'])]
-        body+=wing(c,780,163,144)
+        body+=aircraft(c,792,151,121)
         body+=[text(662,298,'FORM / STRUCTURE / MOTION',11,c['muted'],mono=True,spacing=1)]
     return svg(width,height,'Soun — Lê Nguyễn Trần Tiến / Mechanical Engineering / Aerospace Mechanics',body,c)
 
