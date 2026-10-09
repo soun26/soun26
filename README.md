@@ -1,15 +1,15 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile.svg?v=28fb738">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile.svg?v=28fb738">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark.svg?v=28fb738">
-  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg?v=28fb738" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering, specializing in Aerospace Mechanics.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile.svg?v=wing-motion-v1">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile.svg?v=wing-motion-v1">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark.svg?v=wing-motion-v1">
+  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg?v=wing-motion-v1" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
 </picture>
 
 [Projects](#selected-work) &nbsp; · &nbsp; [Experience](#experience) &nbsp; · &nbsp; [Skills](#skills) &nbsp; · &nbsp; [Tiếng Việt](https://github.com/soun26/soun26/blob/main/README.vi.md)
 
-I'm **Lê Nguyễn Trần Tiến**, also known as **Soun**. My field is **Mechanical Engineering**, specializing in **Aerospace Mechanics**.
+I'm **Lê Nguyễn Trần Tiến**, also known as **Soun**. My main focus is **Mechanical Engineering**.
 
-I work with mechanical design, engineering simulation and manufacturing. My research interests include bio-inspired evolutionary cooling channels and 5-axis 3D printing.
+I work on mechanical design, simulation and manufacturing, and learn related skills as each project requires. My research interests include bio-inspired evolutionary cooling channels and 5-axis 3D printing.
 
 ## Selected work
 
@@ -53,4 +53,4 @@ I work with mechanical design, engineering simulation and manufacturing. My rese
 
 ---
 
-<sub>Soun · Mechanical Engineering / Aerospace Mechanics · <a href="https://github.com/soun26/soun26/blob/main/README.vi.md">Tiếng Việt</a></sub>
+<sub>Soun · Mechanical Engineering · <a href="https://github.com/soun26/soun26/blob/main/README.vi.md">Tiếng Việt</a></sub>

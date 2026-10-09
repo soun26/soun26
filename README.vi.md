@@ -1,15 +1,15 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile.svg?v=28fb738">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile.svg?v=28fb738">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark.svg?v=28fb738">
-  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg?v=28fb738" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering, chuyên ngành Aerospace Mechanics.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile.svg?v=wing-motion-v1">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile.svg?v=wing-motion-v1">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark.svg?v=wing-motion-v1">
+  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg?v=wing-motion-v1" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Cơ khí. Học hỏi qua các dự án liên ngành.">
 </picture>
 
 [Dự án](#dự-án) &nbsp; · &nbsp; [Kinh nghiệm](#kinh-nghiệm) &nbsp; · &nbsp; [Kỹ năng](#kỹ-năng) &nbsp; · &nbsp; [English](https://github.com/soun26)
 
-Mình là **Lê Nguyễn Trần Tiến**, bạn có thể gọi mình là **Soun**. Lĩnh vực của mình là **Mechanical Engineering**, chuyên ngành **Aerospace Mechanics — Cơ học hàng không và vũ trụ**.
+Mình là **Lê Nguyễn Trần Tiến**, bạn có thể gọi mình là **Soun**. Lĩnh vực chính của mình là **Cơ khí**.
 
-Mình làm việc với thiết kế cơ khí, mô phỏng và gia công. Hai đề tài mình đang theo là kênh làm mát tiến hóa dạng sinh học và in 3D 5 trục.
+Mình làm thiết kế cơ khí, mô phỏng và gia công. Với mỗi dự án, mình tìm hiểu thêm những mảng liên quan. Hai đề tài mình đang theo là kênh làm mát tiến hóa dạng sinh học và in 3D 5 trục.
 
 ## Dự án
 
@@ -39,4 +39,4 @@ Mình dùng môi trường mô phỏng để tìm hiểu chuyển động và h�
 
 ---
 
-<sub>Soun · Mechanical Engineering / Aerospace Mechanics · <a href="https://github.com/soun26">English</a></sub>
+<sub>Soun · Cơ khí · <a href="https://github.com/soun26">English</a></sub>

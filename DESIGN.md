@@ -1,14 +1,17 @@
 # Soun profile — design notes
 
-The profile presents **Soun / Lê Nguyễn Trần Tiến**, **Mechanical Engineering**
-and the **Aerospace Mechanics** specialization supplied by the owner.
+The profile presents **Soun / Lê Nguyễn Trần Tiến** with **Mechanical Engineering**
+as the main focus. The introduction emphasizes curiosity and learning through
+interdisciplinary work that connects design, simulation and manufacturing.
 
 ## Direction
 
-The layout combines a large typographic identity, an original aircraft illustration,
+The layout combines a large typographic identity, an original swept-wing wireframe,
 short project introductions and a restrained neutral palette with a copper accent.
 Project overviews provide readable context before tools and technologies.
 SVG banners have light/dark and mobile variants; light backgrounds use pure white.
+Only the wing illustration moves, with a slow sway and a small moving highlight.
+The illustration stays still when the browser requests reduced motion.
 
 These choices apply ideas from design work published in 2025–2026:
 
