@@ -1,4 +1,4 @@
-[← Soun](https://github.com/tienleeee)
+[← Soun](https://github.com/soun26)
 
 # 5-axis 3D printing research
 
@@ -12,7 +12,7 @@ explore how the orientation of the part affects the printing process.
 The current demonstrator focuses on virtual motion and print orientation;
 physical machine validation remains future work.
 
-[Public research source →](https://github.com/tienleeee/fdut-fractal-simulator)
+[Public research source →](https://github.com/soun26/fdut-fractal-simulator)
 
 <details>
 <summary>Tiếng Việt</summary>

@@ -1,4 +1,4 @@
-[← Soun](https://github.com/tienleeee)
+[← Soun](https://github.com/soun26)
 
 # Bio-inspired evolutionary cooling channels
 

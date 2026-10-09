@@ -95,7 +95,7 @@ def hero(theme,mobile=False):
               text(24,203,'Aerospace Mechanics',19,c['text']),
               text(24,233,'DESIGN  /  SIMULATION  /  RESEARCH',11,c['muted'],mono=True,spacing=.7)]
         body+=wing(c,300,306,90)
-        body+=[text(24,366,'tienleeee / github',11,c['muted'],mono=True)]
+        body+=[text(24,366,'soun26 / github',11,c['muted'],mono=True)]
     else:
         width,height=1000,340
         body=[text(36,40,'MECHANICAL ENGINEERING',13,c['muted'],mono=True,spacing=2),
