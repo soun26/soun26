@@ -1,4 +1,4 @@
-[← Soun](https://github.com/soun26)
+[Soun](https://github.com/soun26)
 
 # Bio-inspired evolutionary cooling channels
 
@@ -21,11 +21,9 @@ thickness provide a practical setting for studying nonuniform cooling.
 
 ## Web presentation
 
-[Open web app →](https://cooling-ai-user.lengtrtien2610.workers.dev/)
+[Web](https://cooling-ai-user.lengtrtien2610.workers.dev/) · [Source](https://github.com/soun26/cooling-ai-web)
 
 [![Web interface](../assets/cooling-web-rounded.svg)](https://cooling-ai-user.lengtrtien2610.workers.dev/user/)
-
-[Web interface source →](https://github.com/soun26/cooling-ai-web)
 
 A browser edition presents selected research cases and visual results
 on desktop and mobile. The browser interface and gateway have a separate source

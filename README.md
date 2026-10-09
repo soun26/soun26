@@ -5,7 +5,7 @@
   <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-motion.svg?v=vector-v2" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering. Learning through interdisciplinary work.">
 </picture>
 
-[Projects](#selected-work) &nbsp; · &nbsp; [Experience](#experience) &nbsp; · &nbsp; [Skills](#skills)
+[Projects](#selected-work) · [Experience](#experience) · [Skills](#skills)
 
 I'm **Lê Nguyễn Trần Tiến**, also known as **Soun**. My main focus is **Mechanical Engineering**.
 
@@ -24,9 +24,7 @@ I work on mechanical design, simulation, programming and manufacturing. With eac
 
 **Bio-inspired evolutionary cooling channels** — cooling networks that follow complex part geometry and evolve to improve thermal uniformity in plastic injection molding.
 
-[Open web app →](https://cooling-ai-user.lengtrtien2610.workers.dev/)  
-[Web source](https://github.com/soun26/cooling-ai-web)  
-[Research overview](https://github.com/soun26/soun26/blob/main/projects/bio-inspired-cooling.md)
+[Web](https://cooling-ai-user.lengtrtien2610.workers.dev/) · [Source](https://github.com/soun26/cooling-ai-web) · [Overview](https://github.com/soun26/soun26/blob/main/projects/bio-inspired-cooling.md)
 
 [![Cooling web interface](assets/cooling-web-rounded.svg)](https://cooling-ai-user.lengtrtien2610.workers.dev/user/)
 
@@ -41,11 +39,11 @@ I work on mechanical design, simulation, programming and manufacturing. With eac
 
 **5-axis 3D printing research** — simulation and visualization of multi-axis printing motion and toolpaths.
 
-[View project →](https://github.com/soun26/fdut-5axis-printing) &nbsp; · &nbsp; [Read the overview](https://github.com/soun26/soun26/blob/main/projects/five-axis-3d-printing.md)
+[Project](https://github.com/soun26/fdut-5axis-printing) · [Overview](https://github.com/soun26/soun26/blob/main/projects/five-axis-3d-printing.md)
 
 ![5-axis printing demonstrator — toolpath playback and 3D navigation](https://raw.githubusercontent.com/soun26/fdut-5axis-printing/main/docs/media/printing-demo-rounded.gif)
 
-Source code is private. [Contact me for source access →](https://github.com/soun26/fdut-5axis-printing/issues/new?title=Source%20access%20request)
+Source code is private. [Request access](https://github.com/soun26/fdut-5axis-printing/issues/new?title=Source%20access%20request)
 
 ## Experience
 
