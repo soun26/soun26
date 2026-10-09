@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile.svg">
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering, chuyên ngành Aerospace Mechanics.">
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark-mobile.svg?v=28fb738">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light-mobile.svg?v=28fb738">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-dark.svg?v=28fb738">
+  <img src="https://raw.githubusercontent.com/soun26/soun26/main/assets/hero-light.svg?v=28fb738" width="100%" alt="Soun — Lê Nguyễn Trần Tiến. Mechanical Engineering, chuyên ngành Aerospace Mechanics.">
 </picture>
 
 [Dự án](#dự-án) &nbsp; · &nbsp; [Kinh nghiệm](#kinh-nghiệm) &nbsp; · &nbsp; [Kỹ năng](#kỹ-năng) &nbsp; · &nbsp; [English](https://github.com/soun26)
